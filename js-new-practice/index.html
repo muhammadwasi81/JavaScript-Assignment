@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" id="main">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice js</title>
+</head>
+
+<body>
+
+    <!-- chap # 45 events links -->
+    <!-- on click isn't case sensative -->
+    <!-- JavaScript:void(0) stops refresh the page -->
+    <!-- <a href="JavaScript:void(0)" onClick="alert('hi')">click me</a> -->
+    <!-- <a href="JavaScript:void(0)" onClick="var greet='Hi'; alert(greet);">click Me</a> -->
+    <!-- <a href="JavaScript:void(0)" onClick="helloWorld('Hello World')">click me</a> -->
+
+    <!-- Chap # 46 Events: buttons -->
+    <!-- <input type="button" value="Click" onClick="alert('Hello world')"> -->
+    <!-- <img src="https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300"
+        onclick="alert('Hello Image')"> -->
+
+    <!-- Events mouse: Chap# 47 -->
+    <!-- <img src="https://i.pinimg.com/originals/83/64/66/83646654668bf9ae412f45bb2e417ddf.jpg"
+        onMouseOver=src="https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__340.jpg"> -->
+
+    <!-- have done with javascript -->
+    <!-- <img src="https://i.pinimg.com/originals/83/64/66/83646654668bf9ae412f45bb2e417ddf.jpg" onMouseOver="ImageChanged()"
+        onMouseOut="resetImage()" id="img1"> -->
+
+    <!-- <h1 onMouseOver="alert('Lorem ispum dolor sit amet consecteturadipis')">Hello</h1> -->
+
+    <!-- <a href="index.html" onmouseover="this.style.color='green'">Click Me</a> -->
+
+    <!-- Chap# 48:Events: Input fields -->
+    <!-- <label for="">Email:</label> -->
+    <!-- <input type="email" name="" id="" onfocus="this.style.backgroundColor='yellow'"
+        onblur="this.style.backgroundColor='red'"> -->
+
+    <!-- chap # 49: Input Fields -->
+    <!-- <form onsubmit="checkAddress()">
+        Email:
+        <input type="email" id="email">
+        <input type="submit" value="submit">
+    </form> -->
+    <!-- 
+    <form class="form" id="myForm">
+        <label for="username">Name:</label>
+        <input type="text" name="username" id="username">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <button type="submit">Submit</button>
+    </form> -->
+
+    <!-- chap # 50: setting field values -->
+    <!-- <form>
+        <label for="zip">zip</label>
+        <input type="text" id="zip" onBlur="fillCity()">
+        <br>
+        <label for="city">city</label>
+        <input type="text" id="city">
+    </form> -->
+
+    <!-- <form>
+        <label for="names">Roll No</label>
+        <input type="text" id="rollNo" onBlur="fillName()">
+        <br>
+        <label for="student">Student</label>
+        <input type="text" id="student">
+    </form> -->
+
+    <!-- Chap: 51 Reading and setting paragraph Text -->
+    <!-- <p id="slowLoris">
+        Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus.
+        <a href="JavaScript:void(0)" onClick="loadMore()">load More</a>
+    </p> -->
+
+    <!-- <p id="loadmore">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, quam. Cupiditate modi doloremque error quam quo
+        ipsa odit non explicabo?
+        <a href="JavaScript:void(0)" onClick="showFull()">Load More</a>
+    </p> -->
+
+    <!-- <div id="lorisList">
+        <ol>
+            <li>Loris</li>
+            <li>cheetha</li>
+            <li>Lala</li>
+        </ol>
+    </div> -->
+
+    <!-- Chap # 50 Setting Fields Values -->
+    <!-- <img src="https://cdn.pixabay.com/photo/2016/12/31/21/22/discus-fish-1943755__340.jpg" id="ugly"
+        onClick="makeInvisible()">
+
+    <style>
+        .fish {
+            display: none;
+        }
+    </style> -->
+    <!-- 
+    <p id="big" onMouseOver="makeBig()">Lorem</p> -->
+    <!-- <style>
+        .large {
+            font-size: 2rem;
+        }
+    </style> -->
+
+    <!-- Chap# 53: SWapping Images -->
+    <!-- <img src="https://cdn.pixabay.com/photo/2016/12/31/21/22/discus-fish-1943755__340.jpg" id="before"
+        onMouseOver="swapPic()"> -->
+
+    <!-- or we can do this -->
+    <!-- <img src="https://cdn.pixabay.com/photo/2016/12/31/21/22/discus-fish-1943755__340.jpg" id="before" onMouseOver="swapPic(id,
+     'https://i.pinimg.com/originals/83/64/66/83646654668bf9ae412f45bb2e417ddf.jpg')"> -->
+
+    <!-- <img src="https://www.extremetech.com/wp-content/uploads/2019/12/SONATA-hero-option1-764A5360-edit.jpg" id="before"
+        onMouseOver="swapImage(id,'https://media.wired.com/photos/5d09594a62bcb0c9752779d9/1:1/w_1500,h_1500,c_limit/Transpo_G70_TA-518126.jpg')"> -->
+
+    <!-- chap 54:  Swapping images and setting classes -->
+
+    <!-- <img src="https://www.extremetech.com/wp-content/uploads/2019/12/SONATA-hero-option1-764A5360-edit.jpg" id="before"
+        onMouseOver="swapImage(id,'https://media.wired.com/photos/5d09594a62bcb0c9752779d9/1:1/w_1500,h_1500,c_limit/Transpo_G70_TA-518126.jpg')"> -->
+    <!-- 
+    <a href="https://github.com" id="link" onMouseOver="getAddress()">
+        Click Me</a> -->
+
+    <!-- chap: 55 setting styles using javascript -->
+    <!-- <img src="https://www.extremetech.com/wp-content/uploads/2019/12/SONATA-hero-option1-764A5360-edit.jpg" id="change"> -->
+
+    <!-- <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, excepturi.</p> -->
+
+    <!-- <p id="para">Lorem ipsum dolor sit amet.</p>
+    <style>
+        .abc {
+            font-size: 30px;
+            font-family: Helvetica;
+            color: red;
+            background-color: #f0c040;
+        } 
+    </style> -->
+
+    <!-- <span id="edit">Wasi</span>
+    <style>
+        .big {
+            font-size: 30px;
+            font-weight: 300;
+            color: #f0c040;
+
+        }
+    </style> -->
+
+    <!-- chap: 56 : Getting elements by tag name -->
+    <!-- <p>This bed is too small.</p>
+    <p>This bed is too big.</p>
+    <p>This bed is just right.</p> -->
+
+    <!-- chap: 57 target some elements -->
+    <!-- <table border="1px" id="table9">
+        <tr>
+            <th>Name</th>
+            <th>Name</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>wasi</td>
+            <td>wasi</td>
+            <td>wasi</td>
+        </tr>
+    </table> -->
+    <!-- <button onClick="colorChange()">change</button> -->
+
+    <!-- Chap # 5*: DOM -->
+    <!-- <p id="para">Lorem ipsum dolor sit amet.</p> -->
+
+    <!-- <div id="div1"></div> -->
+
+    <!-- <div id="text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, tenetur?</p>
+    </div> -->
+
+    <!-- <div id="text">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div> -->
+
+    <!-- dom insert adjusent method -->
+    <!-- <div id="test">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aperiam.</p>
+    </div> -->
+
+    <!-- Chap: 60 in book but we are doing before Replace child & remove  -->
+    <!-- <ul id="list">
+        <li>orange</li>
+        <li>Banana</li>
+        <li>Grapes</li>
+        <li>Apple</li>
+    </ul> -->
+
+    <!-- my example -->
+    <!-- <table border="1">
+        <tr id="list">
+            <td>haseeb</td>
+            <td>wasi</td>
+            <td>Adil</td>
+            <td>Haris</td>
+        </tr>
+    </table> -->
+
+    <!-- <ul id="list1">
+        <li>wasi</li>
+        <li>haseeb</li>
+        <li>adil</li>
+        <li>Aqib</li>
+    </ul> -->
+
+    <!-- <ul id="list2">
+        <li>daniyal</li>
+        <li>mohsin</li>
+    </ul> -->
+    <!-- 
+    <div id="test"></div> -->
+
+    <!-- chap 60 book practice -->
+    <!-- <div id="findpara">
+        <p>wasi is the best</p>
+        <p>Haseeb is the best</p>
+        <p>moiz is the best</p>
+        <p>krish is the best</p>
+    </div> -->
+
+
+    <!-- <div id="cal">
+        <p>Southern Cal is sunny.</p>
+        <p>Northern Cal is rainy.</p>
+        <p>Eastern Cal is desert.</p>
+    </div>
+    <div id="ny">
+        <p>Urban NY is crowded.</p>
+        <p>Rural NY is sparse.</p>
+        <p>Lorem ipsum dolor sit amet</p>
+    </div> -->
+
+    <!-- DOM TRAVERSEL METHODS  like parentNode and childNode etc-->
+    <!-- <div id="outer">
+        <h2>Outer</h2>
+        <div id="inner">
+            <h2 id="child-head">Inner</h2>
+            <div>A</div>
+            <div>B</div>
+            <div id="child-c">c</div>
+            <div>D</div>
+            <div id="child-e">E</div>
+        </div>
+    </div> -->
+
+    <!-- Chap: 61 Junk artifacts and nodeType
+    checking nodeTypes -->
+
+    <!-- <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, esse.</p> -->
+
+    <!-- <button id="btn">Click Me</button> -->
+
+    <!-- <div id="humpty">
+        <p>All the king's horses.</p>
+        <p>All the dude's crew.</p>
+        <p>All the town's orthopedists.</p>
+    </div> -->
+
+    <!-- Chap: 62 More ways to target dom elements -->
+
+    <!-- <div id="div1">
+        <div id="div2">
+            <p>Chicago</p>
+            <p>Kansas City</p>
+            <p>St. Louis</p>
+        </div>
+    </div> -->
+
+    <!-- Chap: 65 The Dom Attributes -->
+
+    <!-- <div id="p1">
+        <p class="special"></p>
+    </div> -->
+
+    <!-- <div id="div1">Hi Champions!</div> -->
+
+    <!-- <h1>Hello from js</h1>
+    <style>
+        .demoClass {
+            color: red;
+        }
+    </style> -->
+
+    <!-- <div id="head"></div> -->
+
+    <!-- chap # 66: Attribute names and values -->
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, voluptatem culpa unde explicabo ea quas</p>
+    <style>
+        .wasi {
+            background-color: #f0c040;
+        }
+    </style> -->
+
+    <!-- geeky shows example -->
+
+    <!-- <p id="para">Lorem ipsum dolor sit amet.</p> -->
+    <!-- <style>
+        #wasi {
+            background-color: red
+        }
+    </style> -->
+
+    <!-- <p id="myp" class="myClass" style="background-color: red;">Lorem ipsum dolor sit amet. </p> -->
+
+
+    <!-- chap # 66 -->
+
+    <!-- <p id="p1" class="c1">Lorem ipsum dolor sit amet.</p> -->
+
+    <!-- Chap # 68 -->
+    <!-- <div id="myDiv">
+        <p id="para">Lorem ipsum dolor sit amet.</p>
+    </div> -->
+
+    <!-- 
+    <div id="div1">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div> -->
+
+    <!-- <button onClick="facebook()">open</button> -->
+
+    <!-- <button id="back">back</button>
+    <button id="forward">forward</button> -->
+    <!-- <button id="go">Go</button> -->
+
+    <!-- chap # 79 window objects -->
+
+    <!-- <button onClick="openWindow()">Open Window</button> -->
+    <!-- <button onClick="closeWindow()">close Window</button> -->
+    <!-- 
+    <button onClick="openWindow()">Open window</button>
+    <button onClick="moveWindow()">move window</button> -->
+
+    <!-- chap # 81: Form validation: text fields -->
+    <!-- <form onsubmit="return checkValidation()">
+        please enter your name <br>
+        <input type="text" id="lastname" placeholder="lastname">
+        <input type="submit" value="submit form">
+    </form> -->
+
+    <!-- chap # 82 -->
+    <!-- <form action="" onsubmit="return checkForSelection()">
+        <select id="states">
+            <option value="select" selected="selected">Select a State</option>
+            <option value="Al">alabama</option>
+            <option value="Mi">Michigan</option>
+            <option value="Ny">New York</option>
+            <option value="Ar">Arizona</option>
+            <option value="Nc">North Carolina</option>
+        </select>
+        <input type="submit" value="submit">
+    </form> -->
+
+    <!-- <form action="" onsubmit="validateRadios()">
+        <input type="radio" name="r1" value="cat"> cat <br>
+        <input type="radio" name="r1" value="dog"> dog <br>
+        <input type="radio" name="r1" value="fish"> fish <br>
+        <input type="submit" value="Submit Form">
+    </form> -->
+
+    <!-- <form action="" onsubmit="validateZipCode()">
+        <label for="zipcode">zipcode</label> <br>
+        <input type="text" id="zipcode" name="zipcode">
+        <input type="submit" value="submit" />
+    </form> -->
+
+    <!-- Form validation: email -->
+    <!-- <form action="" onsubmit="return validateEmail()">
+        Email: <input type="text" id="email">
+        <input type="submit" value="submit">
+    </form> -->
+
+    <!-- throw error -->
+    <!-- <form action="" onsubmit="return checkPassword()">
+        <label for="password">Password:
+            <input type="text" id="pass">
+            <input type="submit" value="submit">
+        </label>
+    </form> -->
+
+    <!-- scrolling events -->
+    <!-- <button id="popup">popup</button> -->
+
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dignissimos obcaecati porro, reiciendis ratione
+        veritatis quaerat inventore rem fuga dolores sed earum rerum natus nesciunt commodi voluptates impedit cumque
+        neque aut eos soluta, sit blanditiis officiis! Saepe necessitatibus iste animi velit temporibus mollitia
+        expedita! Aliquid amet blanditiis quae dolorum neque.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dignissimos obcaecati porro, reiciendis ratione
+        veritatis quaerat inventore rem fuga dolores sed earum rerum natus nesciunt commodi voluptates impedit cumque
+        neque aut eos soluta, sit blanditiis officiis! Saepe necessitatibus iste animi velit temporibus mollitia
+        expedita! Aliquid amet blanditiis quae dolorum neque.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dignissimos obcaecati porro, reiciendis ratione
+        veritatis quaerat inventore rem fuga dolores sed earum rerum natus nesciunt commodi voluptates impedit cumque
+        neque aut eos soluta, sit blanditiis officiis! Saepe necessitatibus iste animi velit temporibus mollitia
+        expedita! Aliquid amet blanditiis quae dolorum neque.</p>
+    <div id="showScroll">current Scroll:</div> -->
+
+    <!-- <div id="color">text color change</div> -->
+
+    <p id="demo">wasi is a bad boi</p>
+
+</body>
+<script src="app.js"></script>
+
+</html>
